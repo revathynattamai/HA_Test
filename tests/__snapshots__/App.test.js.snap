@@ -1,0 +1,475 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders app successfully 1`] = `
+<div>
+  <div
+    class="makeStyles-wrapper-1"
+  >
+    <div
+      class="makeStyles-content-2"
+    >
+      <div
+        class="MuiPaper-root MuiCard-root makeStyles-root-3 MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <div
+            class="MuiCardMedia-root makeStyles-media-4"
+            style="background-image: url(https://rickandmortyapi.com/api/character/avatar/1.jpeg);"
+            title="Rick Sanchez"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+            >
+              Rick Sanchez
+            </h2>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1"
+            >
+              Human
+            </h6>
+            <p
+              class="MuiTypography-root MuiTypography-body2"
+            />
+            <p
+              class="MuiTypography-root MuiTypography-body2"
+            >
+              Earth (C-137)
+            </p>
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <nav
+      aria-label="pagination navigation"
+      class="MuiPagination-root makeStyles-pagination-5"
+      id="pagination"
+    >
+      <ul
+        class="MuiPagination-ul"
+      >
+        <li>
+          <button
+            aria-label="Go to previous page"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page Mui-disabled Mui-disabled"
+            disabled=""
+            tabindex="-1"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiPaginationItem-icon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+              />
+            </svg>
+          </button>
+        </li>
+        <li>
+          <button
+            aria-current="true"
+            aria-label="page 1"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page Mui-selected"
+            tabindex="0"
+            type="button"
+          >
+            1
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to page 2"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page"
+            tabindex="0"
+            type="button"
+          >
+            2
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to page 3"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page"
+            tabindex="0"
+            type="button"
+          >
+            3
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to page 4"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page"
+            tabindex="0"
+            type="button"
+          >
+            4
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to page 5"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page"
+            tabindex="0"
+            type="button"
+          >
+            5
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <div
+            class="MuiPaginationItem-root MuiPaginationItem-ellipsis"
+          >
+            …
+          </div>
+        </li>
+        <li>
+          <button
+            aria-label="Go to page 34"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page"
+            tabindex="0"
+            type="button"
+          >
+            34
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to next page"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page"
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiPaginationItem-icon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+              />
+            </svg>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;
+
+exports[`renders app successfully with uneven data 1`] = `
+<div>
+  <div
+    class="makeStyles-wrapper-11"
+  >
+    <div
+      class="makeStyles-content-12"
+    />
+    <nav
+      aria-label="pagination navigation"
+      class="MuiPagination-root makeStyles-pagination-15"
+      id="pagination"
+    >
+      <ul
+        class="MuiPagination-ul"
+      >
+        <li>
+          <button
+            aria-label="Go to previous page"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page Mui-disabled Mui-disabled"
+            disabled=""
+            tabindex="-1"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiPaginationItem-icon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+              />
+            </svg>
+          </button>
+        </li>
+        <li>
+          <button
+            aria-current="true"
+            aria-label="page 1"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page Mui-selected"
+            tabindex="0"
+            type="button"
+          >
+            1
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to next page"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page Mui-disabled Mui-disabled"
+            disabled=""
+            tabindex="-1"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiPaginationItem-icon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+              />
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;
+
+exports[`renders error 1`] = `
+<div>
+  <div>
+    Some error occurred, please try again.
+  </div>
+</div>
+`;
+
+exports[`renders new page successfully 1`] = `
+<div>
+  <div
+    class="makeStyles-wrapper-6"
+  >
+    <div
+      class="makeStyles-content-7"
+    >
+      <div
+        class="MuiPaper-root MuiCard-root makeStyles-root-8 MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <div
+            class="MuiCardMedia-root makeStyles-media-9"
+            style="background-image: url(https://rickandmortyapi.com/api/character/avatar/1.jpeg);"
+            title="Rick Sanchez 2"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+            >
+              Rick Sanchez 2
+            </h2>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1"
+            >
+              Human
+            </h6>
+            <p
+              class="MuiTypography-root MuiTypography-body2"
+            />
+            <p
+              class="MuiTypography-root MuiTypography-body2"
+            >
+              Earth (C-137)
+            </p>
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <nav
+      aria-label="pagination navigation"
+      class="MuiPagination-root makeStyles-pagination-10"
+      id="pagination"
+    >
+      <ul
+        class="MuiPagination-ul"
+      >
+        <li>
+          <button
+            aria-label="Go to previous page"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page"
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiPaginationItem-icon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+              />
+            </svg>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to page 1"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page"
+            tabindex="0"
+            type="button"
+          >
+            1
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <button
+            aria-current="true"
+            aria-label="page 2"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page Mui-selected"
+            tabindex="0"
+            type="button"
+          >
+            2
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to page 3"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page"
+            tabindex="0"
+            type="button"
+          >
+            3
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to page 4"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page"
+            tabindex="0"
+            type="button"
+          >
+            4
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to page 5"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page"
+            tabindex="0"
+            type="button"
+          >
+            5
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <div
+            class="MuiPaginationItem-root MuiPaginationItem-ellipsis"
+          >
+            …
+          </div>
+        </li>
+        <li>
+          <button
+            aria-label="Go to page 34"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page"
+            tabindex="0"
+            type="button"
+          >
+            34
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to next page"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page"
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiPaginationItem-icon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+              />
+            </svg>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;
